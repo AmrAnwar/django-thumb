@@ -68,7 +68,7 @@ from thumb import ImageThumbnailField, VideoThumbnailField
 ```
 
 ----
-# quick project to test the fields
+# simple Model examples to test the fields
 ###### at first make sure that you made all the setup above
 - #### create the models:
 in any app inside `models.py` file we will made these two models:
