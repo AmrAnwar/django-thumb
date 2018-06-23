@@ -12,6 +12,11 @@ to generate images from videos and write on images.**
 
 ![testmodel](http://c.up-00.com/2018/06/152973480835121.gif)
 
+- if you find the project useful, it'll be my pleasure if you :star: the project repo and if you like to 
+[![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://github.com/AmrAnwar/django-thumb)
+[![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow)](https://twitter.com/AmrAnwar00)
+
+
 install
 -------
 ```shell
@@ -19,7 +24,7 @@ pip install django-thumb # try pip3 if it didn't work
 ```
 
 Quick setup
------------
+-------
 
 1. Add "thumb" to your INSTALLED_APPS setting like this::
 ```python
