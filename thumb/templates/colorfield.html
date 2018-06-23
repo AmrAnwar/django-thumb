@@ -1,0 +1,11 @@
+{% load static %}
+
+{% include widget.text_input_template_name %}
+
+<script>
+(function () {
+var element = document.getElementById('{{ widget.attrs.id }}');
+element.classList.add("jscolor");
+
+})();
+</script>

@@ -1,0 +1,19 @@
+{% load static from staticfiles %}
+<div id="thumbnail-input-data" class="thumbnail-input">
+    {% block content %}
+
+    {% endblock %}
+
+    {% if value %}
+        <hr>
+        <div>
+            <b>
+                preview:
+            </b>
+            <div class="thumbnail-preview-section">
+                <img src="{{ value.url }}">
+            </div>
+        </div>
+
+    {% endif %}
+</div>

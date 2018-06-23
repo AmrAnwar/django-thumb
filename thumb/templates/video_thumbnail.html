@@ -1,0 +1,65 @@
+{% extends 'thumbnail_base.html' %}
+
+{% block content %}
+    <div>
+        <b>capture options:</b>
+        <div class="thumbnail-input-section">
+                {% with widget=widget.subwidgets.0 %}
+                    {% include widget.template_name %}
+
+                {% endwith %}
+                {% with widget=widget.subwidgets.1 %}
+                    {% include widget.template_name %}
+
+                {% endwith %}
+            <div>
+
+                {% with widget=widget.subwidgets.2 %}
+                    {% if widget.type == 'checkbox' %}
+                        {% include widget.template_name %}
+                        {{ widget.attrs.label }}
+                    {% else %}
+                        {% include widget.template_name %}
+                    {% endif %}
+                {% endwith %}
+            </div>
+            <div>
+                {% with widget=widget.subwidgets.3 %}
+                    {% if widget.type == 'checkbox' %}
+                        {% include widget.template_name %}
+                        {{ widget.attrs.label }}
+                    {% else %}
+                        {% include widget.template_name %}
+                    {% endif %}
+                {% endwith %}
+                {% with widget=widget.subwidgets.4 %}
+                    {% if widget.type == 'checkbox' %}
+                        {% include widget.template_name %}
+                        {{ widget.attrs.label }}
+                    {% else %}
+                        {% include widget.template_name %}
+                    {% endif %}
+                {% endwith %}
+            </div>
+            <div>
+                {% with widget=widget.subwidgets.5 %}
+                    {% include widget.template_name %}
+
+                {% endwith %}
+            </div>
+
+            {% if widget.video_capture_help_text %}
+                <div class="thumbnail-form-help">{{ widget.video_capture_help_text }}</div>
+            {% endif %}
+
+        </div>
+    </div>
+    <hr>
+    <div>
+        {% with widget=widget.subwidgets.6 %}
+                    {% include widget.template_name %}
+
+        {% endwith %}
+    </div>
+
+{% endblock %}

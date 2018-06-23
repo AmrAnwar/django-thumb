@@ -1,0 +1,15 @@
+{% load static from staticfiles %}
+
+<b>text:</b>
+<div class="thumbnail-input-section">
+    {% for widget in widget.subwidgets %}
+        <div class="text-input-row">
+            <div class="text-input-label">{{ widget.attrs.label }}:</div>
+            <div class="text-input-field">{% include widget.template_name %}</div>
+        </div>
+    {% endfor %}
+    {% if widget.text_input_help_text %}
+        <div class="thumbnail-form-help">{{ widget.text_input_help_text }}</div>
+    {% endif %}
+
+</div>

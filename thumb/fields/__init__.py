@@ -1,0 +1,2 @@
+from .video_thumbnail_field import VideoThumbnailField
+from .image_thumnail_field import ImageThumbnailField

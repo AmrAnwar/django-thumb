@@ -1,0 +1,11 @@
+{% extends 'thumbnail_base.html' %}
+
+
+{% block content %}
+    {% for widget in widget.subwidgets %}
+    <div class="thumbnail-input-section">
+                    {% include widget.template_name %}
+    </div>
+    {% endfor %}
+{% endblock %}
+

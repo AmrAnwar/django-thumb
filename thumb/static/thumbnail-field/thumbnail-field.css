@@ -1,0 +1,25 @@
+#thumbnail-input-data{
+    float: left;
+}
+.thumbnail-form-help{
+    font-size: 11px;
+    color: #999;
+}
+.thumbnail-input-section, .thumbnail-preview-section{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.text-input-label{
+    display: inline-block;
+    width: 100px;
+}
+.text-input-field{
+    display: inline-block;
+}
+.thumbnail-preview-section img{
+    max-height: 300px;
+    max-width: 300px;
+}
+.text-input-row{
+    margin-bottom: 2px;
+}

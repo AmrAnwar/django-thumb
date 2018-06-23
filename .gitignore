@@ -1,0 +1,16 @@
+build
+.installed.cfg
+bin
+develop-eggs
+dist
+downloads
+eggs
+parts
+lib
+lib64
+django_thumb.egg-info/
+*.py[cod]
+*.swp
+config.ini
+.idea/
+.vscode/
