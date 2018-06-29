@@ -1,18 +1,18 @@
 import os
 import re
-import cv2
-import numpy as np
-
-
-from PIL import Image
 from io import BytesIO
 from random import randint
+
+import cv2
+import numpy as np
+from PIL import Image
 
 from django import forms
 from django.core.files.base import ContentFile
 from django.conf import settings
 from django.core.files.storage import default_storage
 from django.core.files.uploadedfile import UploadedFile
+
 from .cascade_data import CASCADE_RATIO
 
 
@@ -119,7 +119,7 @@ class Thumbnail(object):
 
 class ImageThumbnail(Thumbnail):
     def __init__(self, **kwargs):
-        super().__init__(**kwargs)
+        super(ImageThumbnail, self).__init__(**kwargs)
         if isinstance(self.file, UploadedFile):
             self.file_name = self.file.name
             stream = self.file.open()
@@ -142,7 +142,7 @@ class ImageThumbnail(Thumbnail):
 
 class VideoThumbnail(Thumbnail):
     def __init__(self, **kwargs):
-        super().__init__(**kwargs)
+        super(VideoThumbnail, self).__init__(**kwargs)
         # TODO NEED TO BE MORE CLEAN
         if isinstance(self.file, UploadedFile):
             try:

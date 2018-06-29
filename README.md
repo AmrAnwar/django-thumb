@@ -1,6 +1,7 @@
 ![python version](https://img.shields.io/badge/python-3.4+-blue.svg)
 [![PyPI version](https://badge.fury.io/py/django-thumb.svg)](https://badge.fury.io/py/django-thumb)
 ![PyPI - License](https://img.shields.io/pypi/l/Django.svg)
+![coverage](https://svgshare.com/i/7R1.svg)
 
 Django-thumb 
 =====
@@ -11,11 +12,6 @@ to generate images from videos and write on images.**
 - Quick Preview for `VideoThumbnailField`(thumbnail)
 
 ![testmodel](http://c.up-00.com/2018/06/152973480835121.gif)
-
-- if you find the project useful, it'll be my pleasure if you :star: the project repo and if you like to 
-[![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://github.com/AmrAnwar/django-thumb)
-[![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow)](https://twitter.com/AmrAnwar00)
-
 
 install
 -------
@@ -141,9 +137,3 @@ CASCADE_RATIO = {
 - opencv in image processing and text writing 
 - [jscolor](http://jscolor.com/) in the color field 
 
----
-
-#### TODO list in the app:
-- [ ] add DocString in all the methods
-- [ ] add test project 
-- [ ] add serializer method field for the model fields

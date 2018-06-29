@@ -16,8 +16,8 @@ class ImageThumbnailFieldForm(forms.MultiValueField):
             # text
             ColoredTextFieldForm(required=False),
         ]
-        kwargs.pop('max_length')
-        kwargs.pop('widget')
+        kwargs.pop('max_length', None)
+        kwargs.pop('widget', None)
         kwargs['require_all_fields'] = False
         super(ImageThumbnailFieldForm, self).__init__(fields=fields, *args, **kwargs)
 

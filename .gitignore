@@ -11,6 +11,11 @@ lib64
 django_thumb.egg-info/
 *.py[cod]
 *.swp
+*.sqlite3
 config.ini
 .idea/
 .vscode/
+*.coverage
+coverage.svg
+static/
+*.DS_Store
