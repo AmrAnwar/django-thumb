@@ -13,6 +13,8 @@ to generate images from videos and write on images.**
 
 ![testmodel](http://c.up-00.com/2018/06/152973480835121.gif)
 
+###### hope you :star: the repo if you find it helpful
+
 install
 -------
 ```shell
