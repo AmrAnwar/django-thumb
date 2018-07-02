@@ -2,6 +2,7 @@
 [![PyPI version](https://badge.fury.io/py/django-thumb.svg)](https://badge.fury.io/py/django-thumb)
 ![PyPI - License](https://img.shields.io/pypi/l/Django.svg)
 ![coverage](https://svgshare.com/i/7R1.svg)
+[![Downloads](http://pepy.tech/badge/django-thumb)](http://pepy.tech/project/django-thumb)
 
 Django-thumb 
 =====
