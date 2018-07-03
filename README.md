@@ -1,6 +1,7 @@
 ![python version](https://img.shields.io/badge/python-3.4+-blue.svg)
-[![PyPI version](https://badge.fury.io/py/django-thumb.svg)](https://badge.fury.io/py/django-thumb)
 ![PyPI - License](https://img.shields.io/pypi/l/Django.svg)
+
+[![PyPI version](https://badge.fury.io/py/django-thumb.svg)](https://badge.fury.io/py/django-thumb)
 ![coverage](https://svgshare.com/i/7R1.svg)
 [![Downloads](http://pepy.tech/badge/django-thumb)](http://pepy.tech/project/django-thumb)
 
