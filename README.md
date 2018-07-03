@@ -8,8 +8,7 @@
 Django-thumb 
 =====
 
-**django-thumb is a simple Django app contains *two models fields* 
-to generate images from videos and write on images.**
+**django-thumb is a simple Django app that contains *two models fields* , The app generates images from videos and additionally can create write on images.**
 
 - Quick Preview for `VideoThumbnailField`(thumbnail)
 
