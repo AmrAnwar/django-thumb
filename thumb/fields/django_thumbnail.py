@@ -1,3 +1,10 @@
+"""
+Author: AmrAnwar
+- the project main Class,
+- ImageThumbnail class: get a Inmemoryfile and text and return PIL(django content_type file)
+- VideoThumbnail class: get in memeoryfile or bytes file with capture condition and text
+                        -and return a PIL(django content_type file) 
+"""
 import os
 import re
 from io import BytesIO
@@ -50,6 +57,9 @@ def convert_image_bgr_to_rgb(cv2_bgr_frame):
 
 
 class Thumbnail(object):
+    """
+    the base class 
+    """
 
     def __init__(self, file=None, font_text=None, font_color=None, font_style=None):
         self.file = file
@@ -118,6 +128,7 @@ class Thumbnail(object):
 
 
 class ImageThumbnail(Thumbnail):
+    
     def __init__(self, **kwargs):
         super(ImageThumbnail, self).__init__(**kwargs)
         if isinstance(self.file, UploadedFile):
