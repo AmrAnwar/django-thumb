@@ -10,7 +10,7 @@ Django-thumb
 
 **django-thumb is a simple Django app that contains *two models fields* , The app generates images from videos and additionally can create write on images.**
 
-- Quick Preview for `VideoThumbnailField`(thumbnail)
+- Quick Preview for `VideoThumbnailField`(Thumbnail)
 
 ![testmodel](http://c.up-00.com/2018/06/152973480835121.gif)
 
