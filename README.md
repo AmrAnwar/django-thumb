@@ -78,8 +78,8 @@ from thumb import ImageThumbnailField, VideoThumbnailField
 
 class Media(models.Model):
     video = models.FileField()
-    # it's to be VideoThumbnailField(video_field_name="video") but "video" is the default
-    thumbnail = VideoThumbnailField()
+    # our Thumbnail
+    thumbnail = VideoThumbnailField() # should be VideoThumbnailField(video_field_name="video") but "video" is the default
 
 
 class MediaTwo(models.Model):
