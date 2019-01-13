@@ -12,7 +12,7 @@ Django-thumb
 
 - Quick Preview for `VideoThumbnailField`(Thumbnail)
 
-![testmodel](http://c.up-00.com/2018/06/152973480835121.gif)
+![testmodel](https://cdn-images-1.medium.com/max/800/1*NiIMKLWMwntViXiJ-5k9og.gif)
 
 ###### hope you :star: the repo if you find it helpful
 
