@@ -105,7 +105,6 @@ admin.site.register(MediaTwo)
 #### now eveything is ready to test let's test make sure you got the same templates as the pictures below
 - ##### in the Model `media` we can choose cascade like `human appear` to caputre at **or** enter the `time MM:SS` **or** just choose random
 
-![media_model](http://a.up-00.com/2018/06/152973557971411.jpeg)
 
 - ##### in the Model `media two` it's just one field `thumbnail` it's normal ImageField but you can add text to it
 
