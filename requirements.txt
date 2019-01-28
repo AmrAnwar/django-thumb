@@ -1,4 +1,4 @@
-Django>2.0.8
+Django==2.0.10
 numpy==1.14.5
 opencv-python==3.4.1.15
 Pillow==5.1.0
