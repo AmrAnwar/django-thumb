@@ -109,7 +109,7 @@ admin.site.register(MediaTwo)
 
 - ##### in the Model `media two` it's just one field `thumbnail` it's normal ImageField but you can add text to it
 
-![media_two_model](http://a.up-00.com/2018/06/152973557990662.jpeg)
+![media_two_model](https://miro.medium.com/max/663/1*jFM0-FgT4VZAKdh4dcqYYA.jpeg)
 
 ---
 #### ADD more Cascade choices
